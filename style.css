@@ -3,3 +3,54 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+body{
+    min-height: 100vh;
+    display: grid;
+    gap: 10px;
+    grid-template-rows: 10% 70% 20%;
+}
+
+nav{
+    background-color: aqua;
+}
+
+footer{
+    background-color: green;
+}
+
+main{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 10px;
+}
+
+.left{
+    display: grid;
+    gap: 10px;
+    grid-template-rows: 20% 80%;
+}
+
+.upper-left{
+    background-color: greenyellow;
+}
+
+.lower-left{
+    background-color: aqua;
+}
+
+
+.right{
+    display: grid;
+    gap: 10px;
+    grid-template-rows: 80% 20%;
+}
+
+.upper-right{
+    background-color: aqua;
+}
+
+.lower-right{
+    background-color: greenyellow;
+}
